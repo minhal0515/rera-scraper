@@ -39,7 +39,7 @@ def main():
             "Project Name":       row.get("project_Name", ""),
             "Promoter Name":      row.get("promotorName", ""),
             "Promoter Address":   f"{row.get('addressArea','')} {row.get('addressTown','')}".strip(),
-            "GST No":             row.get("gstNo", "")
+            "GST No":             row.get("gstNo", "NA")
     		})
     	sleep(0.2)
 
